@@ -1,0 +1,1629 @@
+D:\dev-workspace\www\musiclib\app>Console\cake bake
+
+
+Welcome to CakePHP v2.3.2 Console
+---------------------------------------------------------------
+App : app
+Path: D:\dev-workspace\www\musiclib\app\
+---------------------------------------------------------------
+Interactive Bake Shell
+---------------------------------------------------------------
+[D]atabase Configuration
+[M]odel
+[V]iew
+[C]ontroller
+[P]roject
+[F]ixture
+[T]est case
+[Q]uit
+What would you like to Bake? (D/M/V/C/P/F/T/Q)
+> M
+---------------------------------------------------------------
+Bake Model
+Path: D:\dev-workspace\www\musiclib\app\Model\
+---------------------------------------------------------------
+Possible Models based on your current database:
+1. User
+Enter a number from the list above,
+type in the name of another model, or 'q' to exit
+[q] > 1
+A displayField could not be automatically detected
+would you like to choose one? (y/n)
+> y
+ 1. id
+ 2. firstname
+ 3. lastname
+ 4. username
+ 5. password
+ 6. email
+ 7. role
+ 8. created
+ 9. modified
+Choose a field from the options above:
+> 4
+Would you like to supply validation criteria
+for the fields in your model? (y/n)
+[y] > y
+
+Field: id
+Type: integer
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] >
+
+Field: firstname
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] > 24
+Would you like to add another validation rule? (y/n)
+[n] > y
+
+Field: firstname
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] > 18
+Would you like to add another validation rule? (y/n)
+[n] > n
+
+Field: lastname
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] > 24
+Would you like to add another validation rule? (y/n)
+[n] > y
+
+Field: lastname
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] > 18
+Would you like to add another validation rule? (y/n)
+[n] > n
+
+Field: username
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] > ^CBatchvorgang abbrechen (J/N)? j
+
+D:\dev-workspace\www\musiclib\app>Console\cake bake
+
+
+Welcome to CakePHP v2.3.2 Console
+---------------------------------------------------------------
+App : app
+Path: D:\dev-workspace\www\musiclib\app\
+---------------------------------------------------------------
+Interactive Bake Shell
+---------------------------------------------------------------
+[D]atabase Configuration
+[M]odel
+[V]iew
+[C]ontroller
+[P]roject
+[F]ixture
+[T]est case
+[Q]uit
+What would you like to Bake? (D/M/V/C/P/F/T/Q)
+> M
+---------------------------------------------------------------
+Bake Model
+Path: D:\dev-workspace\www\musiclib\app\Model\
+---------------------------------------------------------------
+Possible Models based on your current database:
+1. User
+Enter a number from the list above,
+type in the name of another model, or 'q' to exit
+[q] > 1
+A displayField could not be automatically detected
+would you like to choose one? (y/n)
+> y
+ 1. id
+ 2. firstname
+ 3. lastname
+ 4. username
+ 5. password
+ 6. email
+ 7. role
+ 8. created
+ 9. modified
+Choose a field from the options above:
+> 4
+Would you like to supply validation criteria
+for the fields in your model? (y/n)
+[y] > y
+
+Field: id
+Type: integer
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] >
+
+Field: firstname
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] > 24
+Would you like to add another validation rule? (y/n)
+[n] > y
+
+Field: firstname
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] > 18
+Would you like to add another validation rule? (y/n)
+[n] > n
+
+Field: lastname
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] > 24
+Would you like to add another validation rule? (y/n)
+[n] > y
+
+Field: lastname
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] > 18
+Would you like to add another validation rule? (y/n)
+[n] > n
+
+Field: username
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] > 24
+Would you like to add another validation rule? (y/n)
+[n] > y
+
+Field: username
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] > 1
+Would you like to add another validation rule? (y/n)
+[n] > n
+
+Field: password
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] > 24
+Would you like to add another validation rule? (y/n)
+[n] > y
+
+Field: password
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] > 1
+Would you like to add another validation rule? (y/n)
+[n] > n
+
+Field: email
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] > 11
+Would you like to add another validation rule? (y/n)
+[n] > y
+
+Field: email
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] > 18
+Would you like to add another validation rule? (y/n)
+[n] > n
+
+Field: role
+Type: enum('admin','default')
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] >
+
+Field: created
+Type: datetime
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] > 9
+Would you like to add another validation rule? (y/n)
+[n] > n
+
+Field: modified
+Type: datetime
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] > 9
+Would you like to add another validation rule? (y/n)
+[n] > n
+Would you like to define model associations
+(hasMany, hasOne, belongsTo, etc.)? (y/n)
+[y] > n
+
+---------------------------------------------------------------
+The following Model will be created:
+---------------------------------------------------------------
+Name:       User
+DB Table:   `musiclibdb`.`users`
+Validation: Array
+(
+    [firstname] => Array
+        (
+            [notempty] => notempty
+            [maxlength] => maxlength
+        )
+
+    [lastname] => Array
+        (
+            [notempty] => notempty
+            [maxlength] => maxlength
+        )
+
+    [username] => Array
+        (
+            [notempty] => notempty
+            [alphanumeric] => alphanumeric
+        )
+
+    [password] => Array
+        (
+            [notempty] => notempty
+            [alphanumeric] => alphanumeric
+        )
+
+    [email] => Array
+        (
+            [email] => email
+            [maxlength] => maxlength
+        )
+
+    [created] => Array
+        (
+            [datetime] => datetime
+        )
+
+    [modified] => Array
+        (
+            [datetime] => datetime
+        )
+
+)
+
+---------------------------------------------------------------
+Look okay? (y/n)
+[y] > y
+
+Baking model class for User...
+
+Creating file D:\dev-workspace\www\musiclib\app\Model\User.php
+Wrote `D:\dev-workspace\www\musiclib\app\Model\User.php`
+PHPUnit is not installed. Do you want to bake unit test files anyway? (y/n)
+[y] > y
+
+You can download PHPUnit from http://phpunit.de
+Notice Error: Schema generation error: invalid column type enum('admin','default
+') for User.role does not exist in DBO in [D:\dev-workspace\www\musiclib\lib\Cak
+e\Model\CakeSchema.php, line 617]
+
+
+Baking test fixture for User...
+
+Creating file D:\dev-workspace\www\musiclib\app\Test\Fixture\UserFixture.php
+Wrote `D:\dev-workspace\www\musiclib\app\Test\Fixture\UserFixture.php`
+Bake is detecting possible fixtures...
+
+Baking test case for User Model ...
+
+Creating file D:\dev-workspace\www\musiclib\app\Test\Case\Model\UserTest.php
+Wrote `D:\dev-workspace\www\musiclib\app\Test\Case\Model\UserTest.php`
+---------------------------------------------------------------
+Interactive Bake Shell
+---------------------------------------------------------------
+[D]atabase Configuration
+[M]odel
+[V]iew
+[C]ontroller
+[P]roject
+[F]ixture
+[T]est case
+[Q]uit
+What would you like to Bake? (D/M/V/C/P/F/T/Q)
+> C
+---------------------------------------------------------------
+Bake Controller
+Path: D:\dev-workspace\www\musiclib\app\Controller\
+---------------------------------------------------------------
+Possible Controllers based on your current database:
+---------------------------------------------------------------
+ 1. Users
+Enter a number from the list above,
+type in the name of another controller, or 'q' to exit
+[q] > 1
+---------------------------------------------------------------
+Baking UsersController
+---------------------------------------------------------------
+Would you like to build your controller interactively? (y/n)
+[y] > y
+Would you like to use dynamic scaffolding? (y/n)
+[n] >
+Would you like to create some basic class methods
+(index(), add(), view(), edit())? (y/n)
+[n] > y
+Would you like to create the basic class methods for admin routing? (y/n)
+[n] > n
+Would you like this controller to use other helpers
+besides HtmlHelper and FormHelper? (y/n)
+[n] > n
+Would you like this controller to use any components? (y/n)
+[n] > n
+Would you like to use Session flash messages? (y/n)
+[y] >
+
+---------------------------------------------------------------
+The following controller will be created:
+---------------------------------------------------------------
+Controller Name:
+        Users
+---------------------------------------------------------------
+Look okay? (y/n)
+[y] > y
+
+Baking controller class for Users...
+
+Creating file D:\dev-workspace\www\musiclib\app\Controller\UsersController.php
+Wrote `D:\dev-workspace\www\musiclib\app\Controller\UsersController.php`
+Bake is detecting possible fixtures...
+
+Baking test case for Users Controller ...
+
+Creating file D:\dev-workspace\www\musiclib\app\Test\Case\Controller\UsersContro
+llerTest.php
+Wrote `D:\dev-workspace\www\musiclib\app\Test\Case\Controller\UsersControllerTes
+t.php`
+---------------------------------------------------------------
+Interactive Bake Shell
+---------------------------------------------------------------
+[D]atabase Configuration
+[M]odel
+[V]iew
+[C]ontroller
+[P]roject
+[F]ixture
+[T]est case
+[Q]uit
+What would you like to Bake? (D/M/V/C/P/F/T/Q)
+> M
+---------------------------------------------------------------
+Bake Model
+Path: D:\dev-workspace\www\musiclib\app\Model\
+---------------------------------------------------------------
+Possible Models based on your current database:
+1. Track
+2. User
+Enter a number from the list above,
+type in the name of another model, or 'q' to exit
+[q] > 1
+Would you like to supply validation criteria
+for the fields in your model? (y/n)
+[y] > y
+
+Field: id
+Type: integer
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] >
+
+Field: title
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[24] > ^CBatchvorgang abbrechen (J/N)? j
+
+D:\dev-workspace\www\musiclib\app>Console\cake bake
+
+
+Welcome to CakePHP v2.3.2 Console
+---------------------------------------------------------------
+App : app
+Path: D:\dev-workspace\www\musiclib\app\
+---------------------------------------------------------------
+Interactive Bake Shell
+---------------------------------------------------------------
+[D]atabase Configuration
+[M]odel
+[V]iew
+[C]ontroller
+[P]roject
+[F]ixture
+[T]est case
+[Q]uit
+What would you like to Bake? (D/M/V/C/P/F/T/Q)
+> M
+---------------------------------------------------------------
+Bake Model
+Path: D:\dev-workspace\www\musiclib\app\Model\
+---------------------------------------------------------------
+Possible Models based on your current database:
+1. Track
+2. User
+Enter a number from the list above,
+type in the name of another model, or 'q' to exit
+[q] > 1
+Would you like to supply validation criteria
+for the fields in your model? (y/n)
+[y] > y
+
+Field: id
+Type: integer
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[35] >
+
+Field: path
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[24] > 24
+Would you like to add another validation rule? (y/n)
+[n] > n
+
+Field: title
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[24] > 24
+Would you like to add another validation rule? (y/n)
+[n] > y
+
+Field: title
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[24] > 18
+Would you like to add another validation rule? (y/n)
+[n] > n
+
+Field: artist
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[24] > 24
+Would you like to add another validation rule? (y/n)
+[n] > y
+
+Field: artist
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[24] > 18
+Would you like to add another validation rule? (y/n)
+[n] > n
+
+Field: album
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[24] > 24
+Would you like to add another validation rule? (y/n)
+[n] > y
+
+Field: album
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[24] > 18
+Would you like to add another validation rule? (y/n)
+[n] > n
+
+Field: year
+Type: text
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[24] >
+Would you like to add another validation rule? (y/n)
+[n] > n
+
+Field: tracknumber
+Type: integer
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[25] >
+Would you like to add another validation rule? (y/n)
+[n] > n
+
+Field: genre
+Type: string
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[24] >
+Would you like to add another validation rule? (y/n)
+[n] > n
+
+Field: duration
+Type: time
+---------------------------------------------------------------
+Please select one of the following validation options:
+---------------------------------------------------------------
+ 1. alphanumeric               18. maxlength
+ 2. between                    19. mimetype
+ 3. blank                      20. minlength
+ 4. boolean                    21. money
+ 5. cc                         22. multiple
+ 6. comparison                 23. naturalnumber
+ 7. custom                     24. notempty
+ 8. date                       25. numeric
+ 9. datetime                   26. phone
+10. decimal                    27. postal
+11. email                      28. range
+12. equalto                    29. ssn
+13. extension                  30. time
+14. filesize                   31. uploaderror
+15. inlist                     32. url
+16. ip                         33. userdefined
+17. luhn                       34. uuid
+
+35 - Do not do any validation on this field.
+---------------------------------------------------------------
+... or enter in a valid regex validation string.
+
+[30] >
+Would you like to add another validation rule? (y/n)
+[n] > n
+Would you like to define model associations
+(hasMany, hasOne, belongsTo, etc.)? (y/n)
+[y] > n
+
+---------------------------------------------------------------
+The following Model will be created:
+---------------------------------------------------------------
+Name:       Track
+DB Table:   `musiclibdb`.`tracks`
+Validation: Array
+(
+    [path] => Array
+        (
+            [notempty] => notempty
+        )
+
+    [title] => Array
+        (
+            [notempty] => notempty
+            [maxlength] => maxlength
+        )
+
+    [artist] => Array
+        (
+            [notempty] => notempty
+            [maxlength] => maxlength
+        )
+
+    [album] => Array
+        (
+            [notempty] => notempty
+            [maxlength] => maxlength
+        )
+
+    [year] => Array
+        (
+            [notempty] => notempty
+        )
+
+    [tracknumber] => Array
+        (
+            [numeric] => numeric
+        )
+
+    [genre] => Array
+        (
+            [notempty] => notempty
+        )
+
+    [duration] => Array
+        (
+            [time] => time
+        )
+
+)
+
+---------------------------------------------------------------
+Look okay? (y/n)
+[y] > y
+
+Baking model class for Track...
+
+Creating file D:\dev-workspace\www\musiclib\app\Model\Track.php
+Wrote `D:\dev-workspace\www\musiclib\app\Model\Track.php`
+Notice Error: Schema generation error: invalid column type enum('admin','default
+') for User.role does not exist in DBO in [D:\dev-workspace\www\musiclib\lib\Cak
+e\Model\CakeSchema.php, line 617]
+
+
+Baking test fixture for Track...
+
+Creating file D:\dev-workspace\www\musiclib\app\Test\Fixture\TrackFixture.php
+Wrote `D:\dev-workspace\www\musiclib\app\Test\Fixture\TrackFixture.php`
+Bake is detecting possible fixtures...
+
+Baking test case for Track Model ...
+
+Creating file D:\dev-workspace\www\musiclib\app\Test\Case\Model\TrackTest.php
+Wrote `D:\dev-workspace\www\musiclib\app\Test\Case\Model\TrackTest.php`
+---------------------------------------------------------------
+Interactive Bake Shell
+---------------------------------------------------------------
+[D]atabase Configuration
+[M]odel
+[V]iew
+[C]ontroller
+[P]roject
+[F]ixture
+[T]est case
+[Q]uit
+What would you like to Bake? (D/M/V/C/P/F/T/Q)
+> C
+---------------------------------------------------------------
+Bake Controller
+Path: D:\dev-workspace\www\musiclib\app\Controller\
+---------------------------------------------------------------
+Possible Controllers based on your current database:
+---------------------------------------------------------------
+ 1. Tracks
+ 2. Users
+Enter a number from the list above,
+type in the name of another controller, or 'q' to exit
+[q] > 1
+---------------------------------------------------------------
+Baking TracksController
+---------------------------------------------------------------
+Would you like to build your controller interactively? (y/n)
+[y] > y
+Would you like to use dynamic scaffolding? (y/n)
+[n] >
+Would you like to create some basic class methods
+(index(), add(), view(), edit())? (y/n)
+[n] > y
+Would you like to create the basic class methods for admin routing? (y/n)
+[n] >
+Would you like this controller to use other helpers
+besides HtmlHelper and FormHelper? (y/n)
+[n] >
+Would you like this controller to use any components? (y/n)
+[n] >
+Would you like to use Session flash messages? (y/n)
+[y] >
+
+---------------------------------------------------------------
+The following controller will be created:
+---------------------------------------------------------------
+Controller Name:
+        Tracks
+---------------------------------------------------------------
+Look okay? (y/n)
+[y] >
+
+Baking controller class for Tracks...
+
+Creating file D:\dev-workspace\www\musiclib\app\Controller\TracksController.php
+Wrote `D:\dev-workspace\www\musiclib\app\Controller\TracksController.php`
+Bake is detecting possible fixtures...
+
+Baking test case for Tracks Controller ...
+
+Creating file D:\dev-workspace\www\musiclib\app\Test\Case\Controller\TracksContr
+ollerTest.php
+Wrote `D:\dev-workspace\www\musiclib\app\Test\Case\Controller\TracksControllerTe
+st.php`
+---------------------------------------------------------------
+Interactive Bake Shell
+---------------------------------------------------------------
+[D]atabase Configuration
+[M]odel
+[V]iew
+[C]ontroller
+[P]roject
+[F]ixture
+[T]est case
+[Q]uit
+What would you like to Bake? (D/M/V/C/P/F/T/Q)
+> V
+---------------------------------------------------------------
+Bake View
+Path: D:\dev-workspace\www\musiclib\app\View\
+---------------------------------------------------------------
+Possible Controllers based on your current database:
+---------------------------------------------------------------
+ 1. Tracks
+ 2. Users
+Enter a number from the list above,
+type in the name of another controller, or 'q' to exit
+[q] > 1
+Would you like bake to build your views interactively?
+Warning: Choosing no will overwrite Tracks views if it exist. (y/n)
+[n] > y
+Would you like to create some CRUD views
+(index, add, view, edit) for this controller?
+NOTE: Before doing so, you'll need to create your controller
+and model classes (including associated models). (y/n)
+[y] > y
+Would you like to create the views for admin routing? (y/n)
+[n] > n
+
+Baking `index` view file...
+
+Creating file D:\dev-workspace\www\musiclib\app\View\Tracks\index.ctp
+Wrote `D:\dev-workspace\www\musiclib\app\View\Tracks\index.ctp`
+
+Baking `view` view file...
+
+Creating file D:\dev-workspace\www\musiclib\app\View\Tracks\view.ctp
+Wrote `D:\dev-workspace\www\musiclib\app\View\Tracks\view.ctp`
+
+Baking `add` view file...
+
+Creating file D:\dev-workspace\www\musiclib\app\View\Tracks\add.ctp
+Wrote `D:\dev-workspace\www\musiclib\app\View\Tracks\add.ctp`
+
+Baking `edit` view file...
+
+Creating file D:\dev-workspace\www\musiclib\app\View\Tracks\edit.ctp
+Wrote `D:\dev-workspace\www\musiclib\app\View\Tracks\edit.ctp`
+---------------------------------------------------------------
+
+View Scaffolding Complete.
+
+---------------------------------------------------------------
+Interactive Bake Shell
+---------------------------------------------------------------
+[D]atabase Configuration
+[M]odel
+[V]iew
+[C]ontroller
+[P]roject
+[F]ixture
+[T]est case
+[Q]uit
+What would you like to Bake? (D/M/V/C/P/F/T/Q)
+> V
+---------------------------------------------------------------
+Bake View
+Path: D:\dev-workspace\www\musiclib\app\View\
+---------------------------------------------------------------
+Possible Controllers based on your current database:
+---------------------------------------------------------------
+ 1. Tracks
+ 2. Users
+Enter a number from the list above,
+type in the name of another controller, or 'q' to exit
+[q] > 2
+Would you like bake to build your views interactively?
+Warning: Choosing no will overwrite Users views if it exist. (y/n)
+[n] > y
+Would you like to create some CRUD views
+(index, add, view, edit) for this controller?
+NOTE: Before doing so, you'll need to create your controller
+and model classes (including associated models). (y/n)
+[y] > y
+Would you like to create the views for admin routing? (y/n)
+[n] > n
+
+Baking `index` view file...
+
+Creating file D:\dev-workspace\www\musiclib\app\View\Users\index.ctp
+Wrote `D:\dev-workspace\www\musiclib\app\View\Users\index.ctp`
+
+Baking `view` view file...
+
+Creating file D:\dev-workspace\www\musiclib\app\View\Users\view.ctp
+Wrote `D:\dev-workspace\www\musiclib\app\View\Users\view.ctp`
+
+Baking `add` view file...
+
+Creating file D:\dev-workspace\www\musiclib\app\View\Users\add.ctp
+Wrote `D:\dev-workspace\www\musiclib\app\View\Users\add.ctp`
+
+Baking `edit` view file...
+
+Creating file D:\dev-workspace\www\musiclib\app\View\Users\edit.ctp
+Wrote `D:\dev-workspace\www\musiclib\app\View\Users\edit.ctp`
+---------------------------------------------------------------
+
+View Scaffolding Complete.
+
+---------------------------------------------------------------
+Interactive Bake Shell
+---------------------------------------------------------------
+[D]atabase Configuration
+[M]odel
+[V]iew
+[C]ontroller
+[P]roject
+[F]ixture
+[T]est case
+[Q]uit
+What would you like to Bake? (D/M/V/C/P/F/T/Q)
+> V
+---------------------------------------------------------------
+Bake View
+Path: D:\dev-workspace\www\musiclib\app\View\
+---------------------------------------------------------------
+Possible Controllers based on your current database:
+---------------------------------------------------------------
+ 1. Tracks
+ 2. Users
+Enter a number from the list above,
+type in the name of another controller, or 'q' to exit
+[q] > U
+Would you like bake to build your views interactively?
+Warning: Choosing no will overwrite U views if it exist. (y/n)
+[n] > y
+Would you like to create some CRUD views
+(index, add, view, edit) for this controller?
+NOTE: Before doing so, you'll need to create your controller
+and model classes (including associated models). (y/n)
+[y] > ^CBatchvorgang abbrechen (J/N)? j
