@@ -19,3 +19,10 @@
 Icon?
 ehthumbs.db
 Thumbs.db
+
+# Music files #
+###############
+*.mp3
+*.wmv
+*.m4a
+*.m3u
