@@ -10,7 +10,7 @@
 		echo $this->Form->input('year');
 		echo $this->Form->input('tracknumber');
 		echo $this->Form->input('genre');
-		echo $this->Form->input('duration');
+		echo $this->Form->input('length');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>

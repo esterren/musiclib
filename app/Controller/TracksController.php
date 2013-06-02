@@ -6,6 +6,15 @@ App::uses('AppController', 'Controller');
  * @property Track $Track
  */
 class TracksController extends AppController {
+public $components = array('Search.Prg');
+public $presetVars = true; // using the model configuration
+
+/*public $presetVars = array(
+    array('field' => 'title', 'type' => 'value'),
+	array('field' => 'artist', 'type' => 'like'),
+	array('field' => 'album', 'type' => 'like'),
+	array('field' => 'genre', 'type' => 'like'),
+);*/
 
 /**
  * index method
@@ -13,10 +22,29 @@ class TracksController extends AppController {
  * @return void
  */
 	public function index() {
-		$this->Track->recursive = 0;
+		$this->Prg->commonProcess();
+		$this->paginate = array('conditions' => $this->Track->parseCriteria($this->passedArgs));
+		//$this->Track->recursive = 0;
 		$this->set('tracks', $this->paginate());
 	}
 
+	
+	function search() {
+	// the page we will redirect to
+	$url['action'] = 'index';
+	 
+	// build a URL will all the search elements in it
+	// the resulting URL will be 
+	// example.com/cake/posts/index/Search.keywords:mykeyword/Search.tag_id:3
+	foreach ($this->data as $k=>$v){ 
+		foreach ($v as $kk=>$vv){ 
+			$url[$k.'.'.$kk]=$vv; 
+		} 
+	}
+
+	// redirect the user to the url
+	$this->redirect($url, null, true);
+    }
 /**
  * view method
  *
@@ -37,7 +65,7 @@ class TracksController extends AppController {
  *
  * @return void
  */
-	public function add() {
+/*	public function add() {
 		if ($this->request->is('post')) {
 			$this->Track->create();
 			if ($this->Track->save($this->request->data)) {
@@ -47,7 +75,7 @@ class TracksController extends AppController {
 				$this->Session->setFlash(__('The track could not be saved. Please, try again.'));
 			}
 		}
-	}
+	}*/
 
 /**
  * edit method
@@ -80,7 +108,7 @@ class TracksController extends AppController {
  * @param string $id
  * @return void
  */
-	public function delete($id = null) {
+/*	public function delete($id = null) {
 		$this->Track->id = $id;
 		if (!$this->Track->exists()) {
 			throw new NotFoundException(__('Invalid track'));
@@ -92,5 +120,5 @@ class TracksController extends AppController {
 		}
 		$this->Session->setFlash(__('Track was not deleted'));
 		$this->redirect(array('action' => 'index'));
-	}
+	}*/
 }

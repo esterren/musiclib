@@ -1,0 +1,1102 @@
+﻿D:\dev-workspace\www\musiclib\app>Console\cake crawler
+
+
+Welcome to CakePHP v2.3.2 Console
+---------------------------------------------------------------
+App : app
+Path: D:\dev-workspace\www\musiclib\app\
+---------------------------------------------------------------
+The following files were found:1
+Array
+(
+    [0] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\01 As I Please.mp3
+    [1] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\02 Jane Became Insane.mp3
+    [2] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\03 Sharp, Cool & Collected.mp3
+    [3] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\04 Meantime.mp3
+    [4] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\05 Demons Galore.mp3
+    [5] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\06 Cut off the Top.mp3
+    [6] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\07 Bad Brain.mp3
+    [7] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\08 She Was Great.mp3
+    [8] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\09 Soljanka.mp3
+    [9] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\10 Hail to the Freaks.mp3
+    [10] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Lim
+bo Messiah\11 E-G-O.mp3
+    [11] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+01 Deja Vu (Feat. Jay Z).mp3
+    [12] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+02 Get Me Bodied.mp3
+    [13] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+03 Suga Mama.mp3
+    [14] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+04 Upgrade U (Feat. Jay Z).mp3
+    [15] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+05 Ring The Alarm.mp3
+    [16] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+06 Kitty Kat.mp3
+    [17] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+07 Freakum Dress.mp3
+    [18] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+08 Green Light.mp3
+    [19] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+09 Irreplaceable.mp3
+    [20] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+10 Resentment.mp3
+    [21] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+11 Check On It (Feat. Bun B And Slim.mp3
+)
+1
+Successfully added track to database! Artist: Beatsteaks; Title: As I Please
+Successfully added track to database! Artist: Beatsteaks; Title: Jane Became Ins
+ane
+Successfully added track to database! Artist: Beatsteaks; Title: Sharp, Cool & C
+ollected
+Successfully added track to database! Artist: Beatsteaks; Title: Meantime
+Successfully added track to database! Artist: Beatsteaks; Title: Demons Galore
+Successfully added track to database! Artist: Beatsteaks; Title: Cut off the Top
+
+Successfully added track to database! Artist: Beatsteaks; Title: Bad Brain
+Successfully added track to database! Artist: Beatsteaks; Title: She Was Great
+Successfully added track to database! Artist: Beatsteaks; Title: Soljanka
+Successfully added track to database! Artist: Beatsteaks; Title: Hail to the Fre
+aks
+Successfully added track to database! Artist: Beatsteaks; Title: E-G-O
+Successfully added track to database! Artist: Beyonc├®; Title: Deja Vu (Feat. Ja
+y Z)
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\02 Get Me Bodied.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\03 Suga Mama.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\04 Upgrade U (Feat. Jay Z).mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\05 Ring The Alarm.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\06 Kitty Kat.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\07 Freakum Dress.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\08 Green Light.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\09 Irreplaceable.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\10 Resentment.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\11 Check On It (Feat. Bun B And Slim.mp31
+
+
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>Console\cake crawler
+
+´╗┐
+Welcome to CakePHP v2.3.2 Console
+---------------------------------------------------------------
+App : app
+Path: D:\dev-workspace\www\musiclib\app\
+---------------------------------------------------------------
+The following files were found:1
+Array
+(
+    [0] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\01 As I Please.mp3
+    [1] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\02 Jane Became Insane.mp3
+    [2] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\03 Sharp, Cool & Collected.mp3
+    [3] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\04 Meantime.mp3
+    [4] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\05 Demons Galore.mp3
+    [5] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\06 Cut off the Top.mp3
+    [6] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\07 Bad Brain.mp3
+    [7] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\08 She Was Great.mp3
+    [8] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\09 Soljanka.mp3
+    [9] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\10 Hail to the Freaks.mp3
+    [10] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Lim
+bo Messiah\11 E-G-O.mp3
+    [11] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+01 Deja Vu (Feat. Jay Z).mp3
+    [12] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+02 Get Me Bodied.mp3
+    [13] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+03 Suga Mama.mp3
+    [14] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+04 Upgrade U (Feat. Jay Z).mp3
+    [15] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+05 Ring The Alarm.mp3
+    [16] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+06 Kitty Kat.mp3
+    [17] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+07 Freakum Dress.mp3
+    [18] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+08 Green Light.mp3
+    [19] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+09 Irreplaceable.mp3
+    [20] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+10 Resentment.mp3
+    [21] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+11 Check On It (Feat. Bun B And Slim.mp3
+)
+1
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\01 As I Please.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\02 Jane Became Insane.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\03 Sharp, Cool & Collected.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\04 Meantime.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\05 Demons Galore.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\06 Cut off the Top.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\07 Bad Brain.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\08 She Was Great.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\09 Soljanka.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\10 Hail to the Freaks.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\11 E-G-O.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\01 Deja Vu (Feat. Jay Z).mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\02 Get Me Bodied.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\03 Suga Mama.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\04 Upgrade U (Feat. Jay Z).mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\05 Ring The Alarm.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\06 Kitty Kat.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\07 Freakum Dress.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\08 Green Light.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\09 Irreplaceable.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\10 Resentment.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\11 Check On It (Feat. Bun B And Slim.mp31
+
+
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>Console\cake crawler
+
+´╗┐
+Welcome to CakePHP v2.3.2 Console
+---------------------------------------------------------------
+App : app
+Path: D:\dev-workspace\www\musiclib\app\
+---------------------------------------------------------------
+´╗┐The following files were found:1
+Array
+(
+    [0] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\01 As I Please.mp3
+    [1] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\02 Jane Became Insane.mp3
+    [2] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\03 Sharp, Cool & Collected.mp3
+    [3] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\04 Meantime.mp3
+    [4] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\05 Demons Galore.mp3
+    [5] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\06 Cut off the Top.mp3
+    [6] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\07 Bad Brain.mp3
+    [7] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\08 She Was Great.mp3
+    [8] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\09 Soljanka.mp3
+    [9] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\10 Hail to the Freaks.mp3
+    [10] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Lim
+bo Messiah\11 E-G-O.mp3
+    [11] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+01 Deja Vu (Feat. Jay Z).mp3
+    [12] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+02 Get Me Bodied.mp3
+    [13] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+03 Suga Mama.mp3
+    [14] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+04 Upgrade U (Feat. Jay Z).mp3
+    [15] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+05 Ring The Alarm.mp3
+    [16] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+06 Kitty Kat.mp3
+    [17] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+07 Freakum Dress.mp3
+    [18] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+08 Green Light.mp3
+    [19] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+09 Irreplaceable.mp3
+    [20] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+10 Resentment.mp3
+    [21] => D:\dev-workspace\www\musiclib\app\webroot\files\music\BeyoncÚ\B-day\
+11 Check On It (Feat. Bun B And Slim.mp3
+)
+1
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\01 As I Please.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\02 Jane Became Insane.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\03 Sharp, Cool & Collected.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\04 Meantime.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\05 Demons Galore.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\06 Cut off the Top.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\07 Bad Brain.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\08 She Was Great.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\09 Soljanka.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\10 Hail to the Freaks.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\11 E-G-O.mp31
+Successfully added track to database! Artist: Beyonc├®; Title: Deja Vu (Feat. Ja
+y Z)
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\02 Get Me Bodied.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\03 Suga Mama.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\04 Upgrade U (Feat. Jay Z).mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\05 Ring The Alarm.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\06 Kitty Kat.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\07 Freakum Dress.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\08 Green Light.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\09 Irreplaceable.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\10 Resentment.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\BeyoncÚ\B-day\11 Check On It (Feat. Bun B And Slim.mp31
+
+
+D:\dev-workspace\www\musiclib\app>Console\cake test
+
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>Console\cake crawler
+
+´╗┐
+Welcome to CakePHP v2.3.2 Console
+---------------------------------------------------------------
+App : app
+Path: D:\dev-workspace\www\musiclib\app\
+---------------------------------------------------------------
+´╗┐The following files were found:1
+Array
+(
+    [0] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\01 As I Please.mp3
+    [1] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\02 Jane Became Insane.mp3
+    [2] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\03 Sharp, Cool & Collected.mp3
+    [3] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\04 Meantime.mp3
+    [4] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\05 Demons Galore.mp3
+    [5] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\06 Cut off the Top.mp3
+    [6] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\07 Bad Brain.mp3
+    [7] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\08 She Was Great.mp3
+    [8] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\09 Soljanka.mp3
+    [9] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\10 Hail to the Freaks.mp3
+    [10] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Lim
+bo Messiah\11 E-G-O.mp3
+    [11] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\01 Black And White America.mp3
+    [12] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\02 Come On Get It.mp3
+    [13] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\03 In The Black.mp3
+    [14] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\04 Liquid Jesus.mp3
+    [15] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\05 Rock Star City Life.mp3
+    [16] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\06 Boongie Drop (Feat. Jay Z and Dj Military).mp3
+    [17] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\07 Stand.mp3
+    [18] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\08 Superlove.mp3
+    [19] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\09 Everything.mp3
+    [20] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\10 I Can't Be Without You.mp3
+    [21] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\11 Looking Back On Love.mp3
+    [22] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\12 Life Ain't Ever Been Better Than It Is Now.mp3
+    [23] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\13 The Faith Of A Child.mp3
+    [24] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\14 Sunflower (Feat. Drake).mp3
+    [25] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\15 Dream.mp3
+    [26] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\16 Push.mp3
+    [27] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\01 Love Revolution.mp3
+    [28] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\02 Bring It On.mp3
+    [29] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\03 Good Morning.mp3
+    [30] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\04 Love Love Love.mp3
+    [31] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\05 If You Want It.mp3
+    [32] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\06 I'll Be Waiting.mp3
+    [33] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\07 Will You Marry Me.mp3
+    [34] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\08 I Love The Rain.mp3
+    [35] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\09 A Long And Sad Goodbye.mp3
+    [36] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\10 Dancin' Til Dawn.mp3
+    [37] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\11 This Moment Is All There Is.mp3
+    [38] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\12 A New Door.mp3
+    [39] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\13 Back In Vietnam.mp3
+    [40] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\14 I Want To Go Home.mp3
+    [41] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\15 Uncharted Terrain.mp3
+    [42] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\16 Confused.mp3
+    [43] => D:\dev-workspace\www\musiclib\app\webroot\files\music\William White\
+Evolution\01 Evolution.mp3
+    [44] => D:\dev-workspace\www\musiclib\app\webroot\files\music\William White\
+Evolution\02 Can't Stop Loving You.mp3
+    [45] => D:\dev-workspace\www\musiclib\app\webroot\files\music\William White\
+Evolution\03 Someone To Hold You.mp3
+    [46] => D:\dev-workspace\www\musiclib\app\webroot\files\music\William White\
+Evolution\04 Just For Me.mp3
+    [47] => D:\dev-workspace\www\musiclib\app\webroot\files\music\William White\
+Evolution\05 Mellowson (Live).mp3
+    [48] => D:\dev-workspace\www\musiclib\app\webroot\files\music\William White\
+Evolution\06 Try A Little Love.mp3
+    [49] => D:\dev-workspace\www\musiclib\app\webroot\files\music\William White\
+Evolution\07 Time To Make A Change.mp3
+    [50] => D:\dev-workspace\www\musiclib\app\webroot\files\music\William White\
+Evolution\08 Sweet Love.mp3
+    [51] => D:\dev-workspace\www\musiclib\app\webroot\files\music\William White\
+Evolution\09 Take It Or Leave It.mp3
+    [52] => D:\dev-workspace\www\musiclib\app\webroot\files\music\William White\
+Evolution\10 Sweet Sould Loving.mp3
+    [53] => D:\dev-workspace\www\musiclib\app\webroot\files\music\William White\
+Evolution\11 All In All.mp3
+    [54] => D:\dev-workspace\www\musiclib\app\webroot\files\music\William White\
+Evolution\12 Mercy.mp3
+    [55] => D:\dev-workspace\www\musiclib\app\webroot\files\music\William White\
+Evolution\13 If Only I Could.mp3
+)
+1
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\01 As I Please.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\02 Jane Became Insane.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\03 Sharp, Cool & Collected.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\04 Meantime.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\05 Demons Galore.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\06 Cut off the Top.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\07 Bad Brain.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\08 She Was Great.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\09 Soljanka.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\10 Hail to the Freaks.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\11 E-G-O.mp31
+Successfully added track to database! Artist: Lenny Kravitz; Title: Black And Wh
+ite America
+Successfully added track to database! Artist: Lenny Kravitz; Title: Come On Get
+It
+Successfully added track to database! Artist: Lenny Kravitz; Title: In The Black
+
+Successfully added track to database! Artist: Lenny Kravitz; Title: Liquid Jesus
+
+Successfully added track to database! Artist: Lenny Kravitz; Title: Rock Star Ci
+ty Life
+Successfully added track to database! Artist: Lenny Kravitz; Title: Boongie Drop
+ (Feat. Jay Z and Dj Military)
+Successfully added track to database! Artist: Lenny Kravitz; Title: Stand
+Successfully added track to database! Artist: Lenny Kravitz; Title: Superlove
+Successfully added track to database! Artist: Lenny Kravitz; Title: Everything
+Successfully added track to database! Artist: Lenny Kravitz; Title: I Can't Be W
+ithout You
+Successfully added track to database! Artist: Lenny Kravitz; Title: Looking Back
+ On Love
+Successfully added track to database! Artist: Lenny Kravitz; Title: Life Ain't E
+ver Been Better Than It Is Now
+Successfully added track to database! Artist: Lenny Kravitz; Title: The Faith Of
+ A Child
+Successfully added track to database! Artist: Lenny Kravitz; Title: Sunflower (F
+eat. Drake)
+Successfully added track to database! Artist: Lenny Kravitz; Title: Dream
+Successfully added track to database! Artist: Lenny Kravitz; Title: Push
+Successfully added track to database! Artist: Lenny Kravitz; Title: Love Revolut
+ion
+Successfully added track to database! Artist: Lenny Kravitz; Title: Bring It On
+Successfully added track to database! Artist: Lenny Kravitz; Title: Good Morning
+
+Successfully added track to database! Artist: Lenny Kravitz; Title: Love Love Lo
+ve
+Successfully added track to database! Artist: Lenny Kravitz; Title: If You Want
+It
+Successfully added track to database! Artist: Lenny Kravitz; Title: I'll Be Wait
+ing
+Successfully added track to database! Artist: Lenny Kravitz; Title: Will You Mar
+ry Me
+Successfully added track to database! Artist: Lenny Kravitz; Title: I Love The R
+ain
+Successfully added track to database! Artist: Lenny Kravitz; Title: A Long And S
+ad Goodbye
+Successfully added track to database! Artist: Lenny Kravitz; Title: Dancin' Til
+Dawn
+Successfully added track to database! Artist: Lenny Kravitz; Title: This Moment
+Is All There Is
+Successfully added track to database! Artist: Lenny Kravitz; Title: A New Door
+Successfully added track to database! Artist: Lenny Kravitz; Title: Back In Viet
+nam
+Successfully added track to database! Artist: Lenny Kravitz; Title: I Want To Go
+ Home
+Successfully added track to database! Artist: Lenny Kravitz; Title: Uncharted Te
+rrain
+Successfully added track to database! Artist: Lenny Kravitz; Title: Confused
+ERROR while adding new track!!! Filepath: D:\dev-workspace\www\musiclib\app\webr
+oot\files\music\William White\Evolution\01 Evolution.mp3
+ERROR while adding new track!!! Filepath: D:\dev-workspace\www\musiclib\app\webr
+oot\files\music\William White\Evolution\02 Can't Stop Loving You.mp3
+ERROR while adding new track!!! Filepath: D:\dev-workspace\www\musiclib\app\webr
+oot\files\music\William White\Evolution\03 Someone To Hold You.mp3
+ERROR while adding new track!!! Filepath: D:\dev-workspace\www\musiclib\app\webr
+oot\files\music\William White\Evolution\04 Just For Me.mp3
+ERROR while adding new track!!! Filepath: D:\dev-workspace\www\musiclib\app\webr
+oot\files\music\William White\Evolution\05 Mellowson (Live).mp3
+ERROR while adding new track!!! Filepath: D:\dev-workspace\www\musiclib\app\webr
+oot\files\music\William White\Evolution\06 Try A Little Love.mp3
+ERROR while adding new track!!! Filepath: D:\dev-workspace\www\musiclib\app\webr
+oot\files\music\William White\Evolution\07 Time To Make A Change.mp3
+ERROR while adding new track!!! Filepath: D:\dev-workspace\www\musiclib\app\webr
+oot\files\music\William White\Evolution\08 Sweet Love.mp3
+ERROR while adding new track!!! Filepath: D:\dev-workspace\www\musiclib\app\webr
+oot\files\music\William White\Evolution\09 Take It Or Leave It.mp3
+ERROR while adding new track!!! Filepath: D:\dev-workspace\www\musiclib\app\webr
+oot\files\music\William White\Evolution\10 Sweet Sould Loving.mp3
+ERROR while adding new track!!! Filepath: D:\dev-workspace\www\musiclib\app\webr
+oot\files\music\William White\Evolution\11 All In All.mp3
+ERROR while adding new track!!! Filepath: D:\dev-workspace\www\musiclib\app\webr
+oot\files\music\William White\Evolution\12 Mercy.mp3
+ERROR while adding new track!!! Filepath: D:\dev-workspace\www\musiclib\app\webr
+oot\files\music\William White\Evolution\13 If Only I Could.mp3
+
+
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>
+D:\dev-workspace\www\musiclib\app>Console\cake crawler
+
+´╗┐
+Welcome to CakePHP v2.3.2 Console
+---------------------------------------------------------------
+App : app
+Path: D:\dev-workspace\www\musiclib\app\
+---------------------------------------------------------------
+´╗┐The following files were found:1
+Array
+(
+    [0] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\01 As I Please.mp3
+    [1] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\02 Jane Became Insane.mp3
+    [2] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\03 Sharp, Cool & Collected.mp3
+    [3] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\04 Meantime.mp3
+    [4] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\05 Demons Galore.mp3
+    [5] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\06 Cut off the Top.mp3
+    [6] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\07 Bad Brain.mp3
+    [7] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\08 She Was Great.mp3
+    [8] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\09 Soljanka.mp3
+    [9] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\10 Hail to the Freaks.mp3
+    [10] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Lim
+bo Messiah\11 E-G-O.mp3
+    [11] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\01 Wake Up Mr. West.mp3
+    [12] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\02  Heard 'Em Say.mp3
+    [13] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\03 Touch The Sky.mp3
+    [14] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\04 Gold Digger.mp3
+    [15] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\05 Skit #1.mp3
+    [16] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\06 Drive Slow.mp3
+    [17] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\07 Diamonds.mp3
+    [18] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\08 Crack Music.mp3
+    [19] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\09 Roses.mp3
+    [20] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\10 Bring Me Down.mp3
+    [21] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\11 Addiction.mp3
+    [22] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\12 Skit #2.mp3
+    [23] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\13 Diamonds from Sierra Leone.mp3
+    [24] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\14 We Major.mp3
+    [25] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\15 Skit #3.mp3
+    [26] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\16 Hey Mama.mp3
+    [27] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\17 Celebration.mp3
+    [28] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\18 Skit #4.mp3
+    [29] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\19 Gone.mp3
+    [30] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\20 Diamonds From Sierra Leone.mp3
+    [31] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\21 Late.mp3
+    [32] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\01 Black And White America.mp3
+    [33] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\02 Come On Get It.mp3
+    [34] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\03 In The Black.mp3
+    [35] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\04 Liquid Jesus.mp3
+    [36] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\05 Rock Star City Life.mp3
+    [37] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\06 Boongie Drop (Feat. Jay Z and Dj Military).mp3
+    [38] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\07 Stand.mp3
+    [39] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\08 Superlove.mp3
+    [40] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\09 Everything.mp3
+    [41] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\10 I Can't Be Without You.mp3
+    [42] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\11 Looking Back On Love.mp3
+    [43] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\12 Life Ain't Ever Been Better Than It Is Now.mp3
+    [44] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\13 The Faith Of A Child.mp3
+    [45] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\14 Sunflower (Feat. Drake).mp3
+    [46] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\15 Dream.mp3
+    [47] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\16 Push.mp3
+    [48] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\01 Love Revolution.mp3
+    [49] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\02 Bring It On.mp3
+    [50] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\03 Good Morning.mp3
+    [51] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\04 Love Love Love.mp3
+    [52] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\05 If You Want It.mp3
+    [53] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\06 I'll Be Waiting.mp3
+    [54] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\07 Will You Marry Me.mp3
+    [55] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\08 I Love The Rain.mp3
+    [56] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\09 A Long And Sad Goodbye.mp3
+    [57] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\10 Dancin' Til Dawn.mp3
+    [58] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\11 This Moment Is All There Is.mp3
+    [59] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\12 A New Door.mp3
+    [60] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\13 Back In Vietnam.mp3
+    [61] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\14 I Want To Go Home.mp3
+    [62] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\15 Uncharted Terrain.mp3
+    [63] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\16 Confused.mp3
+    [64] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\01 Harder to Breathe.mp3
+    [65] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\02 This Love.mp3
+    [66] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\03 Shiver.mp3
+    [67] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\04 She Will Be Loved.mp3
+    [68] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\05 Tangled.mp3
+    [69] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\06 The Sun.mp3
+    [70] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\07 Must Get Out.mp3
+    [71] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\08 Sunday Morning.mp3
+    [72] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\09 Secret.mp3
+    [73] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\10 Through With You.mp3
+    [74] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\11 Not Coming Home.mp3
+    [75] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\12 Sweetest Goodbye.mp3
+)
+1
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\01 As I Please.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\02 Jane Became Insane.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\03 Sharp, Cool & Collected.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\04 Meantime.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\05 Demons Galore.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\06 Cut off the Top.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\07 Bad Brain.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\08 She Was Great.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\09 Soljanka.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\10 Hail to the Freaks.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\11 E-G-O.mp31
+Successfully added track to database! Artist: Kanye West; Title: Wake Up Mr. Wes
+t
+Successfully added track to database! Artist: Kanye West; Title: Heard 'Em Say
+Successfully added track to database! Artist: Kanye West; Title: Touch The Sky
+Successfully added track to database! Artist: Kanye West; Title: Gold Digger
+Successfully added track to database! Artist: Kanye West; Title: Skit #1
+Successfully added track to database! Artist: Kanye West; Title: Drive Slow
+Successfully added track to database! Artist: Kanye West; Title: Diamonds
+Successfully added track to database! Artist: Kanye West; Title: Crack Music
+Successfully added track to database! Artist: Kanye West; Title: Roses
+Successfully added track to database! Artist: Kanye West; Title: Bring Me Down
+Successfully added track to database! Artist: Kanye West; Title: Addiction
+Successfully added track to database! Artist: Kanye West; Title: Skit #2
+Successfully added track to database! Artist: Kanye West; Title: Diamonds from S
+ierra Leone
+Successfully added track to database! Artist: Kanye West; Title: We Major
+
+Fatal error: Cannot access protected property PDOException::$message in D:\dev-w
+orkspace\www\musiclib\app\Console\Command\CrawlerShell.php on line 108
+
+Call Stack:
+    0.0004     128304   1. {main}() D:\dev-workspace\www\musiclib\app\Console\ca
+ke.php:0
+    0.0016     190008   2. ShellDispatcher::run() D:\dev-workspace\www\musiclib\
+app\Console\cake.php:37
+    0.0304    1396600   3. ShellDispatcher->dispatch() D:\dev-workspace\www\musi
+clib\lib\Cake\Console\ShellDispatcher.php:68
+    0.0541    2364536   4. Shell->runCommand() D:\dev-workspace\www\musiclib\lib
+\Cake\Console\ShellDispatcher.php:200
+    0.0707    2912776   5. CrawlerShell->main() D:\dev-workspace\www\musiclib\li
+b\Cake\Console\Shell.php:392
+
+Fatal Error Error: Cannot access protected property PDOException::$message in [D
+:\dev-workspace\www\musiclib\app\Console\Command\CrawlerShell.php, line 108]
+
+
+
+D:\dev-workspace\www\musiclib\app>Console\cake crawler
+
+´╗┐
+Welcome to CakePHP v2.3.2 Console
+---------------------------------------------------------------
+App : app
+Path: D:\dev-workspace\www\musiclib\app\
+---------------------------------------------------------------
+´╗┐The following files were found:1
+Array
+(
+    [0] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\01 As I Please.mp3
+    [1] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\02 Jane Became Insane.mp3
+    [2] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\03 Sharp, Cool & Collected.mp3
+    [3] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\04 Meantime.mp3
+    [4] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\05 Demons Galore.mp3
+    [5] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\06 Cut off the Top.mp3
+    [6] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\07 Bad Brain.mp3
+    [7] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\08 She Was Great.mp3
+    [8] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\09 Soljanka.mp3
+    [9] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Limb
+o Messiah\10 Hail to the Freaks.mp3
+    [10] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Beatsteaks\Lim
+bo Messiah\11 E-G-O.mp3
+    [11] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\01 Wake Up Mr. West.mp3
+    [12] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\02  Heard 'Em Say.mp3
+    [13] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\03 Touch The Sky.mp3
+    [14] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\04 Gold Digger.mp3
+    [15] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\05 Skit #1.mp3
+    [16] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\06 Drive Slow.mp3
+    [17] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\07 Diamonds.mp3
+    [18] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\08 Crack Music.mp3
+    [19] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\09 Roses.mp3
+    [20] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\10 Bring Me Down.mp3
+    [21] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\11 Addiction.mp3
+    [22] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\12 Skit #2.mp3
+    [23] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\13 Diamonds from Sierra Leone.mp3
+    [24] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Kanye West\Lat
+e Registration\14 We Major.mp3
+    [25] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\01 Black And White America.mp3
+    [26] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\02 Come On Get It.mp3
+    [27] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\03 In The Black.mp3
+    [28] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\04 Liquid Jesus.mp3
+    [29] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\05 Rock Star City Life.mp3
+    [30] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\06 Boongie Drop (Feat. Jay Z and Dj Military).mp3
+    [31] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\07 Stand.mp3
+    [32] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\08 Superlove.mp3
+    [33] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\09 Everything.mp3
+    [34] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\10 I Can't Be Without You.mp3
+    [35] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\11 Looking Back On Love.mp3
+    [36] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\12 Life Ain't Ever Been Better Than It Is Now.mp3
+    [37] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\13 The Faith Of A Child.mp3
+    [38] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\14 Sunflower (Feat. Drake).mp3
+    [39] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\15 Dream.mp3
+    [40] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+Black and White America\16 Push.mp3
+    [41] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\01 Love Revolution.mp3
+    [42] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\02 Bring It On.mp3
+    [43] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\03 Good Morning.mp3
+    [44] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\04 Love Love Love.mp3
+    [45] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\05 If You Want It.mp3
+    [46] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\06 I'll Be Waiting.mp3
+    [47] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\07 Will You Marry Me.mp3
+    [48] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\08 I Love The Rain.mp3
+    [49] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\09 A Long And Sad Goodbye.mp3
+    [50] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\10 Dancin' Til Dawn.mp3
+    [51] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\11 This Moment Is All There Is.mp3
+    [52] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\12 A New Door.mp3
+    [53] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\13 Back In Vietnam.mp3
+    [54] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\14 I Want To Go Home.mp3
+    [55] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\15 Uncharted Terrain.mp3
+    [56] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Lenny Kravitz\
+It Is Time For A Love Revolution\16 Confused.mp3
+    [57] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\01 Harder to Breathe.mp3
+    [58] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\02 This Love.mp3
+    [59] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\03 Shiver.mp3
+    [60] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\04 She Will Be Loved.mp3
+    [61] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\05 Tangled.mp3
+    [62] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\06 The Sun.mp3
+    [63] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\07 Must Get Out.mp3
+    [64] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\08 Sunday Morning.mp3
+    [65] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\09 Secret.mp3
+    [66] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\10 Through With You.mp3
+    [67] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\11 Not Coming Home.mp3
+    [68] => D:\dev-workspace\www\musiclib\app\webroot\files\music\Maroon 5\Songs
+ About Jane\12 Sweetest Goodbye.mp3
+)
+1
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\01 As I Please.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\02 Jane Became Insane.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\03 Sharp, Cool & Collected.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\04 Meantime.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\05 Demons Galore.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\06 Cut off the Top.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\07 Bad Brain.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\08 She Was Great.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\09 Soljanka.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\10 Hail to the Freaks.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Beatsteaks\Limbo Messiah\11 E-G-O.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Kanye West\Late Registration\01 Wake Up Mr. West.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Kanye West\Late Registration\02  Heard 'Em Say.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Kanye West\Late Registration\03 Touch The Sky.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Kanye West\Late Registration\04 Gold Digger.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Kanye West\Late Registration\05 Skit #1.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Kanye West\Late Registration\06 Drive Slow.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Kanye West\Late Registration\07 Diamonds.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Kanye West\Late Registration\08 Crack Music.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Kanye West\Late Registration\09 Roses.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Kanye West\Late Registration\10 Bring Me Down.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Kanye West\Late Registration\11 Addiction.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Kanye West\Late Registration\12 Skit #2.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Kanye West\Late Registration\13 Diamonds from Sierra Leone.mp
+31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Kanye West\Late Registration\14 We Major.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\Black and White America\01 Black And White Amer
+ica.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\Black and White America\02 Come On Get It.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\Black and White America\03 In The Black.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\Black and White America\04 Liquid Jesus.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\Black and White America\05 Rock Star City Life.
+mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\Black and White America\06 Boongie Drop (Feat.
+Jay Z and Dj Military).mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\Black and White America\07 Stand.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\Black and White America\08 Superlove.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\Black and White America\09 Everything.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\Black and White America\10 I Can't Be Without Y
+ou.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\Black and White America\11 Looking Back On Love
+.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\Black and White America\12 Life Ain't Ever Been
+ Better Than It Is Now.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\Black and White America\13 The Faith Of A Child
+.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\Black and White America\14 Sunflower (Feat. Dra
+ke).mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\Black and White America\15 Dream.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\Black and White America\16 Push.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\It Is Time For A Love Revolution\01 Love Revolu
+tion.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\It Is Time For A Love Revolution\02 Bring It On
+.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\It Is Time For A Love Revolution\03 Good Mornin
+g.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\It Is Time For A Love Revolution\04 Love Love L
+ove.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\It Is Time For A Love Revolution\05 If You Want
+ It.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\It Is Time For A Love Revolution\06 I'll Be Wai
+ting.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\It Is Time For A Love Revolution\07 Will You Ma
+rry Me.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\It Is Time For A Love Revolution\08 I Love The
+Rain.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\It Is Time For A Love Revolution\09 A Long And
+Sad Goodbye.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\It Is Time For A Love Revolution\10 Dancin' Til
+ Dawn.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\It Is Time For A Love Revolution\11 This Moment
+ Is All There Is.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\It Is Time For A Love Revolution\12 A New Door.
+mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\It Is Time For A Love Revolution\13 Back In Vie
+tnam.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\It Is Time For A Love Revolution\14 I Want To G
+o Home.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\It Is Time For A Love Revolution\15 Uncharted T
+errain.mp31
+Track is allready in the database! Filepath: D:\dev-workspace\www\musiclib\app\w
+ebroot\files\music\Lenny Kravitz\It Is Time For A Love Revolution\16 Confused.mp
+31
+Successfully added track to database! Artist: Maroon 5; Title: Harder to Breathe
+
+Successfully added track to database! Artist: Maroon 5; Title: This Love
+Successfully added track to database! Artist: Maroon 5; Title: Shiver
+Successfully added track to database! Artist: Maroon 5; Title: She Will Be Loved
+
+Successfully added track to database! Artist: Maroon 5; Title: Tangled
+Successfully added track to database! Artist: Maroon 5; Title: The Sun
+Successfully added track to database! Artist: Maroon 5; Title: Must Get Out
+Successfully added track to database! Artist: Maroon 5; Title: Sunday Morning
+Successfully added track to database! Artist: Maroon 5; Title: Secret
+Successfully added track to database! Artist: Maroon 5; Title: Through With You
+Successfully added track to database! Artist: Maroon 5; Title: Not Coming Home
+Successfully added track to database! Artist: Maroon 5; Title: Sweetest Goodbye
+
+
+D:\dev-workspace\www\musiclib\app>

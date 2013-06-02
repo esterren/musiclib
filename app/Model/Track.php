@@ -6,13 +6,36 @@ App::uses('AppModel', 'Model');
  */
 class Track extends AppModel {
 
+	public $actsAs = array('Search.Searchable');
+	public $filterArgs = array(
+		'title' => array('title'=>'title','type' => 'query', 'method' => 'filterTitle'),
+		'artist' => array('artist'=>'artist', 'type' => 'like'),
+		'album' => array('album'=>'album','type' => 'like'),
+		'genre' => array('genre'=>'genre','type' => 'like'),
+		);
 /**
  * Display field
  *
  * @var string
  */
 	public $displayField = 'title';
-
+	public $primaryKey = 'id';
+	
+/**
+ * Filter methods
+ * 
+ */
+	public function filterTitle($data, $field = null) {
+	if (empty($data['title'])) {
+		return array();
+	}
+	$nameField = '%' . $data['title'] . '%';
+	return array(
+		'OR' => array(
+			$this->alias . '.title LIKE' => $nameField,
+			));
+	}
+	
 /**
  * Validation rules
  *
@@ -21,8 +44,8 @@ class Track extends AppModel {
 	public $validate = array(
 		'path' => array(
 			'notempty' => array(
-				'rule' => array('notempty'),
-				//'message' => 'Your custom message here',
+				'rule' => 'isUnique',
+				'message' => 'The file allready exists in the database!',
 				//'allowEmpty' => false,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
@@ -30,63 +53,71 @@ class Track extends AppModel {
 			),
 		),
 		'title' => array(
-			'notempty' => array(
+			/*'notempty' => array(
 				'rule' => array('notempty'),
-				//'message' => 'Your custom message here',
+				'message' => 'Title must not be emtpy!',
 				//'allowEmpty' => false,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
+			),*/
 			'maxlength' => array(
-				'rule' => array('maxlength'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
+				'rule' => array('maxlength',150),
+				'message' => 'maximum length of title is 150 characters!',
+				'allowEmpty' => true,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
 		'artist' => array(
-			'notempty' => array(
+			/*'notempty' => array(
 				'rule' => array('notempty'),
-				//'message' => 'Your custom message here',
+				'message' => 'Artist must not be empty!',
 				//'allowEmpty' => false,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
+			),*/
 			'maxlength' => array(
-				'rule' => array('maxlength'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
+				'rule' => array('maxlength',150),
+				'message' => 'Maximum length of artist ist 150 characters!',
+				'allowEmpty' => true,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
 		'album' => array(
-			'notempty' => array(
+			/*'notempty' => array(
 				'rule' => array('notempty'),
-				//'message' => 'Your custom message here',
+				'message' => 'Album must not be empty!',
 				//'allowEmpty' => false,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
+			),*/
 			'maxlength' => array(
-				'rule' => array('maxlength'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
+				'rule' => array('maxlength',150),
+				'message' => 'Maximum length of Album is 150 characters!',
+				'allowEmpty' => true,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
 		'year' => array(
-			'notempty' => array(
-				'rule' => array('notempty'),
-				//'message' => 'Your custom message here',
+			'numeric' => array(
+				'rule' => array('numeric'),
+				'message' => 'Has to be numeric!',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+			'maxlength' => array(
+				'rule' => array('maxlength',4),
+				'message' => 'Maximum length of year is 4 characters!',
 				//'allowEmpty' => false,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
@@ -96,7 +127,7 @@ class Track extends AppModel {
 		'tracknumber' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
-				//'message' => 'Your custom message here',
+				'message' => 'Has to be numeric!',
 				//'allowEmpty' => false,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
@@ -104,19 +135,35 @@ class Track extends AppModel {
 			),
 		),
 		'genre' => array(
-			'notempty' => array(
+			/*'notempty' => array(
 				'rule' => array('notempty'),
-				//'message' => 'Your custom message here',
+				'message' => 'Genre must not be empty!',
 				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),*/
+			'maxlength' => array(
+				'rule' => array('maxlength',150),
+				'message' => 'Maximum length of Genre is 150 characters!',
+				'allowEmpty' => true,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
-		'duration' => array(
-			'time' => array(
-				'rule' => array('time'),
-				//'message' => 'Your custom message here',
+		'length' => array(
+			/*'notempty' => array(
+				'rule' => array('notempty'),
+				'message' => 'Length must not be empty!',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),*/
+			'maxlength' => array(
+				'rule' => array('maxlength',50),
+				'message' => 'Maximum length of Length is 50 characters!',
 				//'allowEmpty' => false,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
