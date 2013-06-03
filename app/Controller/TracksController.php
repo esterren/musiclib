@@ -6,9 +6,10 @@ App::uses('AppController', 'Controller');
  * @property Track $Track
  */
 class TracksController extends AppController {
-public $components = array('Search.Prg');
+//public $components = array();
+public $components = array('Search.Prg','RequestHandler');
 public $presetVars = true; // using the model configuration
-
+public $helpers = array('Js' => array('Jquery'));
 /*public $presetVars = array(
     array('field' => 'title', 'type' => 'value'),
 	array('field' => 'artist', 'type' => 'like'),
@@ -27,7 +28,6 @@ public $presetVars = true; // using the model configuration
 		//$this->Track->recursive = 0;
 		$this->set('tracks', $this->paginate());
 	}
-
 	
 	function search() {
 	// the page we will redirect to

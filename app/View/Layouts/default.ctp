@@ -17,7 +17,7 @@
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 
-$cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework');
+$cakeDescription = __d('cake_dev', 'Music Library');
 ?>
 <!DOCTYPE html>
 <html>
@@ -36,13 +36,15 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 		echo $this->Html->script('jquery-2.0.2.min');
-		echo $this->Js->writeBuffer();
+		//echo $this->Html->script('getLyrics');
+		//array('cache'=>true, 'onDomReady' => false)
+		
 	?>
 </head>
 <body>
 	<div id="container">
 		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
+			<h1>Music Library</h1>
 		</div>
 		<div id="content">
 
@@ -59,6 +61,8 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 			?>
 		</div>
 	</div>
-	<?php echo $this->element('sql_dump'); ?>
+	<?php echo $this->element('sql_dump'); 
+	echo $this->Js->writeBuffer();
+	?>
 </body>
 </html>
