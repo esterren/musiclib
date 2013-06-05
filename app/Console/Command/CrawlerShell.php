@@ -16,8 +16,7 @@ class CrawlerShell extends AppShell {
 
 	//public $path = WWW_ROOT . 'files' . DS . 'music';
 	
-	public function main() {
-		
+	public function main() {		
 		App::import('Vendor', 'getID3', array('file'=>'getid3' . DS .'getid3.php'));
 		$getid3 = new getID3;
 		//$getid3->encoding = 'ISO-8859-1';
@@ -88,8 +87,7 @@ class CrawlerShell extends AppShell {
 					}
 					
 					// Create a new Track
-					$this->Track->create();
-					
+					$this->Track->create();					
 					// Save new Track witch new data
 					if($this->Track->save($this->result)){
 						$this->out('Successfully added track to database! Artist: ' . $this->result['artist'] . '; Title: ' . $this->result['title']);
@@ -97,18 +95,13 @@ class CrawlerShell extends AppShell {
 						$this->out('ERROR while adding new track!!! Filepath: ' . $file); 
 					}
 					
-				}
-				
+				}				
 				catch (Exception $e) {
 					$this->out(print ('ERROR: ' . $e->message));
 				}
 			} else {
 				$this->out(print ('Track is allready in the database! Filepath: ' . $file));
 			}
-		}
-        
+		}   
     }
-
-
-
 }
