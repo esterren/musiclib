@@ -9,7 +9,7 @@ class TracksController extends AppController {
 //public $components = array();
 public $components = array('Search.Prg','RequestHandler');
 public $presetVars = true; // using the model configuration
-public $helpers = array('Js' => array('Jquery'));
+public $helpers = array('Js' => array('Jquery'),'Html');
 /*public $presetVars = array(
     array('field' => 'title', 'type' => 'value'),
 	array('field' => 'artist', 'type' => 'like'),

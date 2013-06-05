@@ -43,8 +43,9 @@ $cakeDescription = __d('cake_dev', 'Music Library');
 </head>
 <body>
 	<div id="container">
-		<div id="header">
-			<h1>Music Library</h1>
+		<div id="header" class="parent">
+			<?php echo $this->Html->image('Tape_200x123px.png',array('alt' => 'Music Library','class'=>'logo_img')); ?>
+			<span class="header_title">Music Library</span>
 		</div>
 		<div id="content">
 

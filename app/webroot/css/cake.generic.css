@@ -79,7 +79,8 @@ p {
 }
 
 #header{
-	padding: 40px 30px;
+	/*padding: 40px 30px;*/
+	margin:40px 30px;
 }
 #header h1 {
 	line-height:20px;
@@ -236,7 +237,7 @@ table td.actions a {
 dl {
 	line-height: 2em;
 	margin: 0em 0em;
-	width: 60%;
+	/*width: 60%;*/
 }
 dl dd:nth-child(4n+2),
 dl dt:nth-child(4n+1) {
@@ -739,3 +740,24 @@ pre {
 #url-rewriting-warning {
 	display:none;
 }
+
+
+.logo_img{
+	vertical-align:text-bottom;
+	padding-right:1.5em;
+}
+
+.header_title{
+	color: #081B26;
+	font-size:48pt;
+	font-weight:bolder;
+}
+
+  .parent {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+	
+	}
+	.floatLeft {float:left;}
+	
