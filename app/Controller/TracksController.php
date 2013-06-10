@@ -84,7 +84,7 @@ public $helpers = array('Js' => array('Jquery'),'Html');
  * @param string $id
  * @return void
  */
-	public function edit($id = null) {
+/*	public function edit($id = null) {
 		if (!$this->Track->exists($id)) {
 			throw new NotFoundException(__('Invalid track'));
 		}
@@ -99,7 +99,7 @@ public $helpers = array('Js' => array('Jquery'),'Html');
 			$options = array('conditions' => array('Track.' . $this->Track->primaryKey => $id));
 			$this->request->data = $this->Track->find('first', $options);
 		}
-	}
+	}*/
 
 /**
  * delete method
